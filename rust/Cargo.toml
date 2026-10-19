@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+members = ["model", "difftest"]
+
+[profile.release]
+debug = true
+overflow-checks = false

@@ -1,0 +1,9 @@
+.claude/settings.local.json
+rust/target/
+lean/.lake/
+rust/target/
+lean/.lake/
+*.llbc
+STAKEHOLDERS.md
+PROPOSAL-INPUTS.md
+PROMPT-phase0.md

@@ -1,0 +1,16 @@
+[package]
+name = "bpf_model"
+version = "0.1.0"
+edition = "2021"
+
+# Safe-Rust model of the Linux eBPF verifier's scalar value tracking.
+# No external crates (CLAUDE.md rule 6).
+[dependencies]
+
+[features]
+# Enables derive(Debug, PartialEq, Eq) on the model types for the harness;
+# off for Charon so that no derived impls are translated.
+difftest = []
+
+[lib]
+crate-type = ["rlib", "staticlib"]
